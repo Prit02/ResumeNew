@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debashree Ray's Resume</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #000;
+            color: #fff;
+            padding: 1rem;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+
+        header div {
+            flex: 1;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        header p {
+            margin: 0.2rem 0;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            margin: 1rem 0;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #3a7ca5;
+            padding-bottom: 0.3rem;
+            color: #000;
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        section h3 {
+            color: #000;
+            font-size: 1rem;
+            margin: 0.4rem 0;
+        }
+
+        section p,
+        section ul {
+            margin: 0.4rem 0;
+            color: #000; /* Set font color to black */
+        }
+
+        section ul {
+            list-style-type: disc;
+            padding: 0 1rem;
+            color: #000;
+        }
+
+        .print-button {
+            display: block;
+            width: 150px;
+            margin: 1rem auto;
+            padding: 0.5rem;
+            text-align: center;
+            background-color: #3a7ca5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .print-button:hover {
+            background-color: #2a5c7a;
+        }
+
+        @media print {
+            .print-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="debashree.jpg" alt="Profile Photo">
+            <div>
+                <h1>Debashree Ray</h1>
+                <p><a href="mailto:debashreeray007@gmail.com">debashreeray007@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/debashree-ray-83476a209" target="_blank">LinkedIn Profile</a></p>
+            </div>
+        </header>
+        <section>
+            <h2>Career Objective</h2>
+            <p>A dedicated professional with a strong foundation in network engineering and ongoing pursuit of an MTech in Computer Applications from BITS Pilani University. Committed to leveraging technical expertise in Unix/Linux, SQL, Azure Fundamentals, and networking to contribute effectively within an organization.</p>
+        </section>
+        <section>
+            <h2>Professional Experience</h2>
+            <h3>Network Engineer, Wipro Technologies, Pune</h3>
+            <p>Aug 2022 - Present</p>
+            <ul>
+                <li>Design and maintain secure network infrastructure solutions using Zscaler, Cisco, IPSec Tunnel, and Customer VPN.</li>
+                <li>Lead initiatives to optimize network performance and reliability.</li>
+                <li>Configure and troubleshoot Cisco routers and switches, implement IPSec tunnels, and manage customer VPNs.</li>
+                <li>Collaborate with cross-functional teams for seamless integration of network solutions.</li>
+                <li>Provide technical support and guidance to junior engineers.</li>
+            </ul>
+            <h3>Trainee, Wipro Technologies, Pune</h3>
+            <p>Dec 2021 - Jul 2022</p>
+            <ul>
+                <li>Built infrastructure on Oracle Virtual Box 6.1 with RHEL 7, managing system configurations and Oracle 12C Database setups.</li>
+                <li>Implemented Windows Server 2016 R2 infrastructure, focusing on Active Directory management and network configurations.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>MTech in Computer Applications (Work Integrated Learning Program), BITS Pilani University, April 2022 - Present</li>
+                <li>BSc (Physics Honours), Jamshedpur Women's College, Kolhan University, Graduation Year: 2021 (CGPA: 9.09)</li>
+                <li>HSC, Jamshedpur Women's College, Kolhan University, Graduation Year: 2018 (Percentage: 71.80%)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>Generative AI Fundamentals, Google Cloud Skills Boost, Aug 2023</li>
+                <li>Google Cloud GenAI - L1 L2 L3, Aug 2023</li>
+                <li>Microsoft SQL for Engineers, March 2022</li>
+                <li>AZ-900 Microsoft Azure Fundamentals, Jan 2022</li>
+                <li>TCS iON Career Edge, Aug 2021</li>
+                <li>Machine Learning Engineer programs, AWS, Aug 2021</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Extra-Curricular Activities</h2>
+            <ul>
+                <li>College representative & volunteer, National Science Day exhibitions at CSIR-NML & Jamshedpur Women's College, 2019-2020</li>
+                <li>'Education Minister' at D.B.M.S Girl's High School, 2015-16</li>
+                <li>Certified for Social Work by Smile Foundation, 2013</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Hobbies</h2>
+            <p>Dancing, Cooking, Listening to Music, Playing Games</p>
+        </section>
+    </div>
+    <button class="print-button" onclick="window.print()">Print Resume</button>
+</body>
+
+</html>
